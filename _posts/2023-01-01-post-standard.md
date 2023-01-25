@@ -65,7 +65,7 @@ A 100 &Omega; resistor was subjected to an EIS experiment, and the Nyquist plot 
 
 <br>
 <center>
-    <img src="/assets/images/EIS/images/Resistor_only.png" height=400px style="height: 400px;">
+    <img src="{{site.baseurl}}/assets/images/EIS/images/Resistor_only.png" height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 2.</b> Nyquist Plot of a 100 &Omega; resistor.
@@ -77,7 +77,7 @@ Figure 3 shows a Nyquist plot of a 100 &Omega; resistor in series with a 10 &mu;
 
 <br>
 <center>
-    <img src="../assets/images/EIS/images/Capacitor_only.png" height=400px style="height: 400px;">
+    <img src="{{site.baseurl}}/assets/images/EIS/images/Capacitor_only.png" height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 3.</b> Nyquist Plot of a 10 &mu;F capacitor in series with a 100 &Omega; resistor.
@@ -89,7 +89,7 @@ Figure 4 below shows the data collected for a Randles circuit, where $R_1 = 100\
 
 <br>
 <center>
-    <img src="../assets/images/EIS/images/Figure4.png" height=400px style="height: 400px;">
+    <img src="{{site.baseurl}}/assets/images/EIS/images/Figure4.png" height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 4.</b> Nyquist plot (left) and Bode plot (right) of a Randle's circuit with a 100 &Omega; resistor in series with a parallel 10 &mu;F capacitor and 220 &Omega; resistor.
@@ -101,7 +101,7 @@ Figure 5 below shows the same circuit, although this time with $R_1 = 10\ \Omega
 
 <br>
 <center>
-    <img src="../assets/images/EIS/images/Figure5.png" height=400px style="height: 400px;">   
+    <img src="{{site.baseurl}}/assets/images/EIS/images/Figure5.png" height=400px style="height: 400px;">   
     <br>
     <i>
         <b>Figure 5.</b> Nyquist plot (left) and Bode plot (right) of a Randles circuit with a 10 &Omega; resistor in series with a parallel 1000 pF capacitor and 330 &Omega; resistor.
@@ -112,7 +112,7 @@ Figure 5 below shows the same circuit, although this time with $R_1 = 10\ \Omega
 Figure 6 below displays a Bode plot comparing the two Randles circuits presented in Figures 4 and 5 above. The peaks in phase angle occur at different frequencies, and the changes in absolute impedance occur to different extents. The impedance data collected for the Randles circuit 1 wasn't collected over a large enough range to fully show the high frequency limit of the absolute impedance. The high frequency limits coincide with the impedance of the series resistor. The Randles circuit 1 also shows a peak in phase angle which has greater overall magnitude. This is due to ratio of $R_1$ to $R_2$ in these circuits. Since the ratio is larger with the circuit elements in Figure 5 than in Figure 4, the magnitude of this phase angle peak is larger.
 
 <center>
-    <img src="../assets/images/EIS/images/Bode_combo1.png" height=400px style="height: 400px;">
+    <img src="{{site.baseurl}}/assets/images/EIS/images/Bode_combo1.png" height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 6.</b> Bode plot the two Randles circuits shown in Figure 4 and Figure 5. Randles 1 corresponds with the circuit shown in Figure 5 while Randles 2 corresponds with the circuit shown in Figure 4.
@@ -124,7 +124,7 @@ Figure 7 below shows the Nyquist plot and the fitted data for two parallel randl
 
 <br>
 <center>
-    <img src="../assets/images/EIS/images/Figure7.png" height=400px style="height: 400px;">
+    <img src="{{site.baseurl}}/assets/images/EIS/images/Figure7.png" height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 7.</b> Nyquist plot (left) and Bode plot (right) of two parallel Randles circuits each having unique resistors and capacitors. 
@@ -148,7 +148,7 @@ Figure 8 below shows the Nyquist plot and the fitted data for two parallel randl
 
 <br>
 <center>
-    <img src="../assets/images/EIS/images/Figure8.png" height=400px style="height: 400px;">
+    <img src="{{site.baseurl}}/assets/images/EIS/images/Figure8.png" height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 8.</b> Nyquist plot (left) and Bode plot (right) of two parallel Randles circuits where each circuit has a 100 &Omega; series resistor and a 220 &Omega; parallel resistor, and two different capacitors.
@@ -169,7 +169,7 @@ Figure 9 below shows the Nyquist plot and the fitted data for two parallel randl
 
 <br>
 <center>
-    <img src="../assets/images/EIS/images/Figure9.png" height=400px style="height: 400px;">
+    <img src="{{site.baseurl}}/assets/images/EIS/images/Figure9.png" height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 9.</b> Nyquist plot (left) and Bode plot (right) of two parallel Randles circuits where both share the same capacitor. 
@@ -190,7 +190,7 @@ Figure 10 below shows a Nyquist plot for a Randles circuit with two parallel ele
 
 <br>
 <center>
-    <img src="../assets/images/EIS/images/Figure10.png" height=400px style="height: 400px;">
+    <img src="{{site.baseurl}}/assets/images/EIS/images/Figure10.png" height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 10.</b> Nyquist plot (left) and Bode plot (right) of two series Randles circuits where both share the same capacitor and one randles circuit has a resistor 10x larger than the other. 
@@ -215,7 +215,7 @@ A secondary lithium ion coin cell was subjected to multiple short charging cycle
 
 <br>
 <center>
-    <img src='../assets/images/EIS/images/CP_all.png' height=400px style="height: 400px;">
+    <img src='{{site.baseurl}}/assets/images/EIS/images/CP_all.png' height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 11.</b> Plot of potential vs time for battery constant current charging. 
@@ -227,7 +227,7 @@ Figure 12 below shows the Nyquist plots for the different measurements taken whi
 
 <br>
 <center>
-    <img src='../assets/images/EIS/images/PEIS_cycles.png' height=400px style="height: 400px;">
+    <img src='{{site.baseurl}}/assets/images/EIS/images/PEIS_cycles.png' height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 12.</b> Nyquist plot for the PEIS measurements taken at different times during charging. 
@@ -246,7 +246,7 @@ Where $Q$ has units of F&centerdot;s<sup>(a-1)</sup>.
 
 <br>
 <center>
-    <img src='../assets/images/EIS/images/Pseudo_Randles.png' height=150px style="height: 150px;">
+    <img src='{{site.baseurl}}/assets/images/EIS/images/Pseudo_Randles.png' height=150px style="height: 150px;">
     <br>
     <i>
         <b>Figure 13.</b> Circuit used to fit the coin cell impedance data.  
@@ -259,7 +259,7 @@ Figure 14 below shows the results of the EIS impedance data fits. All of the fit
 
 <br>
 <center>
-    <img src='../assets/images/EIS/images/PEIS_parameter_changes2.png' height=450px style="height: 450px;">
+    <img src='{{site.baseurl}}/assets/images/EIS/images/PEIS_parameter_changes2.png' height=450px style="height: 450px;">
     <br>
     <i>
         <b>Figure 14.</b> Plot of the different fitting parameters found for the PEIS measurements taken at different times. 
@@ -271,7 +271,7 @@ In addition to the value of the fitted parameters, the change in absolute value 
 
 <br>
 <center>
-    <img src='../assets/images/EIS/images/Parameter_difference.png' height=450px style="height: 450px;">
+    <img src='{{site.baseurl}}/assets/images/EIS/images/Parameter_difference.png' height=450px style="height: 450px;">
     <br>
     <i>
         <b>Figure 15.</b> Plot of the relative difference between PEIS fitting parameters before and after a rest period. 
@@ -283,7 +283,7 @@ Lastly, the exchange current associated with the SEI and cathode electrolyte int
 
 <br>
 <center>
-    <img src='../assets/images/EIS/images/exchangei.png' height=400px style="height: 400px;">
+    <img src='{{site.baseurl}}/assets/images/EIS/images/exchangei.png' height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 16.</b> Plot of the exchange current of the solid electrolyte interface and cathode electrolyte interface as a function of time.
