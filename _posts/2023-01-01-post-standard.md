@@ -7,6 +7,7 @@ tags:
   - EIS
   - Tag1
   - Tag2
+classes: wide
 ---
 
 For this project, (Brief Project Description)
@@ -26,7 +27,7 @@ Figure 1 below shows a simple Randles circuit, consisting of a resistor in serie
 <br>
 <center>
     <div>
-    <img src="../assets/images/EIS/images/Randles-Circuit-3.png" height=200px style="height: 200px;">
+    <img src="{{site.baseurl}}/assets/images/EIS/images/Randles-Circuit-3.png" height=200px style="height: 200px;">
     </div>
     <br>
     <i>
