@@ -65,7 +65,7 @@ A 100 &Omega; resistor was subjected to an EIS experiment, and the Nyquist plot 
 
 <br>
 <center>
-    <img src="../assets/images/EIS/images/Resistor_only.png" height=400px style="height: 400px;">
+    <img src="/assets/images/EIS/images/Resistor_only.png" height=400px style="height: 400px;">
     <br>
     <i>
         <b>Figure 2.</b> Nyquist Plot of a 100 &Omega; resistor.
